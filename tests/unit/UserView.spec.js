@@ -1,9 +1,11 @@
-import {shallowMount} from '@vue/test-utils'
+import { shallowMount } from '@vue/test-utils'
 import UserView from '@/views/UserView'
+import VUserSearchForm from '@/components/VUserSearchForm'
+import VUserProfile from '@/components/VUserProfile'
 
 describe('UserView', () => {
   it('renders the component', () => {
-    // shallowMount - создаст экземпляр нашего компонента
+    // arrange
     const wrapper = shallowMount(UserView)
 
     // assert
@@ -12,5 +14,15 @@ describe('UserView', () => {
     созданного vue-test-utils, а затем мы «фотографируем» html
     нашего компонента (создаем snapshot). Этот HTML существует
     благодаря vue-test-utils.*/
+  })
+  it('renders main child components', () => {
+    // arrange
+    const wrapper = shallowMount(UserView)
+    const userSearchForm = wrapper.find(VUserSearchForm)
+    const userProfile = wrapper.find(VUserProfile)
+
+    // assert
+    expect(userSearchForm.exists()).toBe(true)
+    expect(userProfile.exists()).toBe(true)
   })
 })
