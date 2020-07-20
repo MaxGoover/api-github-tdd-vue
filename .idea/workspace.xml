@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962946a6-b86e-4b04-b06a-909c899dc5c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,6 +43,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/store" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/store" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -66,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595272456023</updated>
-      <workItem from="1595272457585" duration="3546000" />
+      <workItem from="1595272457585" duration="3842000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1595274723562</created>
@@ -89,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595279127557</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added store files">
+      <created>1595279470723</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595279470723</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changed tests settings in package.json">
+      <created>1595279563628</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595279563628</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,21 +129,23 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Changed name" />
     <MESSAGE value="Deleted unnecessary files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted unnecessary files" />
+    <MESSAGE value="Added store files" />
+    <MESSAGE value="Changed tests settings in package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed tests settings in package.json" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2" timestamp="1595279470632">
+    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2" timestamp="1595279563516">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1595279470632" />
+    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1595279563516" />
     <state x="205" y="31" key="SettingsEditor" timestamp="1595278791097">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1595278791097" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595279479345">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595279567399">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1595279479345" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1595279567399" />
     <state x="380" y="190" width="663" height="413" key="git4idea.merge.GitPullDialog" timestamp="1595274544779">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
