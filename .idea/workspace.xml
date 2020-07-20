@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="962946a6-b86e-4b04-b06a-909c899dc5c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/unit/UserView.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/UserView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/app-tdd-vue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/app-tdd-vue.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/unit/UserView.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/UserView.spec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -71,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595272456023</updated>
-      <workItem from="1595272457585" duration="4960000" />
+      <workItem from="1595272457585" duration="7220000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1595274723562</created>
@@ -115,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595279879682</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added first test">
+      <created>1595280993925</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1595280993925</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,25 +150,30 @@
     <MESSAGE value="Added store files" />
     <MESSAGE value="Changed tests settings in package.json" />
     <MESSAGE value="Installed axios and flush-promises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installed axios and flush-promises" />
+    <MESSAGE value="Added first test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added first test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2" timestamp="1595279879502">
+    <state x="311" y="58" width="800" height="677" key="#JavaScript" timestamp="1595281696868">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1595279879502" />
+    <state x="311" y="58" width="800" height="677" key="#JavaScript/67.27.1299.741@67.27.1299.741" timestamp="1595281696868" />
+    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2" timestamp="1595280993795">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1595280993795" />
     <state x="493" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595280263496">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="493" y="155" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1595280263496" />
-    <state x="205" y="31" key="SettingsEditor" timestamp="1595280373964">
+    <state x="205" y="31" key="SettingsEditor" timestamp="1595281434318">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1595280373964" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595279883314">
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1595281434318" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595280996951">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1595279883314" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1595280996951" />
     <state x="380" y="190" width="663" height="413" key="git4idea.merge.GitPullDialog" timestamp="1595274544779">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
