@@ -4,7 +4,12 @@ import Vue from 'vue'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
   base: process.env.BASE_URL,
-  routes: []
+  mode: 'history',
+  routes: [
+    {
+      component: () => import('@/views/UserView'),
+      path: '/'
+    }
+  ]
 })
