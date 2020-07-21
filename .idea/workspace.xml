@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="962946a6-b86e-4b04-b06a-909c899dc5c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VUserSearchForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VUserSearchForm.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/VUserSearchForm.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/VUserSearchForm.spec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595272456023</updated>
       <workItem from="1595272457585" duration="9285000" />
-      <workItem from="1595321114100" duration="11230000" />
+      <workItem from="1595321114100" duration="11289000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1595274723562</created>
@@ -209,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595357102264</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Refactored test for UserDearchForm">
+      <created>1595358382412</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1595358382412</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,17 +253,18 @@
     <MESSAGE value="Added test api" />
     <MESSAGE value="Added route '/'" />
     <MESSAGE value="Installed ElementUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Installed ElementUI" />
+    <MESSAGE value="Refactored test for UserDearchForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored test for UserDearchForm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="58" width="800" height="677" key="#JavaScript" timestamp="1595281696868">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="58" width="800" height="677" key="#JavaScript/67.27.1299.741@67.27.1299.741" timestamp="1595281696868" />
-    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2" timestamp="1595357102097">
+    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2" timestamp="1595358382243">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1595357102097" />
+    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1595358382243" />
     <state x="493" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595280263496">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
