@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="962946a6-b86e-4b04-b06a-909c899dc5c1" name="Default Changelist" comment="Added user views">
+    <list default="true" id="962946a6-b86e-4b04-b06a-909c899dc5c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/unit/fixtures/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VUserProfile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VUserProfile.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/UserView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/UserView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/unit/UserView.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/UserView.spec.js" afterDir="false" />
     </list>
@@ -20,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -75,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595272456023</updated>
       <workItem from="1595272457585" duration="9285000" />
-      <workItem from="1595321114100" duration="2323000" />
+      <workItem from="1595321114100" duration="3977000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1595274723562</created>
@@ -140,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595285271776</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added prop user and test for it">
+      <created>1595339999382</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595339999382</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,17 +177,18 @@
     <MESSAGE value="Added first test" />
     <MESSAGE value="Added first view and made snapshot" />
     <MESSAGE value="Added user views" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added user views" />
+    <MESSAGE value="Added prop user and test for it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added prop user and test for it" />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="58" width="800" height="677" key="#JavaScript" timestamp="1595281696868">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="58" width="800" height="677" key="#JavaScript/67.27.1299.741@67.27.1299.741" timestamp="1595281696868" />
-    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2" timestamp="1595339784671">
+    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2" timestamp="1595339999089">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1595339784671" />
+    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1595339999089" />
     <state x="493" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595280263496">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -188,10 +197,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1595281434318" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595285918444">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595340002616">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1595285918444" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1595340002616" />
     <state x="380" y="190" width="663" height="413" key="git4idea.merge.GitPullDialog" timestamp="1595274544779">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
