@@ -6,7 +6,14 @@
 
 <script>
 export default {
-  name: 'VUserProfile'
+  name: 'VUserProfile',
+  props: {
+    user: {
+      type: Object,
+      required: true,
+      default: () => ({})
+    }
+  }
 }
 </script>
 

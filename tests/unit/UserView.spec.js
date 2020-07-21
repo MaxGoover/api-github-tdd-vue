@@ -31,4 +31,12 @@ describe('UserView', () => {
     expect(userSearchForm().exists()).toBe(true)
     expect(userProfile().exists()).toBe(true)
   })
+  it('passes a binded user prop to user profile component', () => {
+    // arrange
+    const { wrapper, userProfile } = build()
+    wrapper.setData({ user: { name: 'Daniel' } })
+
+    // assert
+    expect(userProfile().vm.user).toBe(wrapper.vm.user)
+  })
 })
