@@ -12,11 +12,11 @@ describe('VUserSearchForm', () => {
     const wrapperMounted = mount(VUserSearchForm, options)
 
     return {
-      wrapper,
-      wrapperMounted,
+      button: () => wrapperMounted.find('button'),
       input: () => wrapper.find('.search-form__input'),
       inputMounted: () => wrapperMounted.find('input'),
-      button: () => wrapperMounted.find('button'),
+      wrapper,
+      wrapperMounted,
     }
   }
 

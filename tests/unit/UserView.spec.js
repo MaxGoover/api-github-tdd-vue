@@ -1,12 +1,12 @@
 jest.mock('@/store/actions')
 import { shallowMount, createLocalVue } from '@vue/test-utils'
-import Vuex from 'vuex'
-import UserView from '@/views/UserView'
-import VUserSearchForm from '@/components/VUserSearchForm'
-import VUserProfile from '@/components/VUserProfile'
 import actions from '@/store/actions'
 import initialState from '@/store/state'
 import userFixture from './fixtures/user'
+import UserView from '@/views/UserView'
+import VUserSearchForm from '@/components/VUserSearchForm'
+import VUserProfile from '@/components/VUserProfile'
+import Vuex from 'vuex'
 
 const localVue = createLocalVue()
 localVue.use(Vuex)
@@ -22,9 +22,9 @@ describe('UserView', () => {
       })
     })
     return {
-      wrapper,
       userSearchForm: () => wrapper.find(VUserSearchForm),
-      userProfile: () => wrapper.find(VUserProfile)
+      userProfile: () => wrapper.find(VUserProfile),
+      wrapper
     }
   }
 
