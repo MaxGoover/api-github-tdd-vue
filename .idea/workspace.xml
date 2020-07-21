@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="962946a6-b86e-4b04-b06a-909c899dc5c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VUserSearchForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VUserSearchForm.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595272456023</updated>
       <workItem from="1595272457585" duration="9285000" />
-      <workItem from="1595321114100" duration="9313000" />
+      <workItem from="1595321114100" duration="9961000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1595274723562</created>
@@ -195,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595356076168</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added route '/'">
+      <created>1595356511227</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1595356511227</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,17 +241,18 @@
     <MESSAGE value="Added test actions" />
     <MESSAGE value="Added test mutations" />
     <MESSAGE value="Added test api" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test api" />
+    <MESSAGE value="Added route '/'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added route '/'" />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="58" width="800" height="677" key="#JavaScript" timestamp="1595281696868">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="58" width="800" height="677" key="#JavaScript/67.27.1299.741@67.27.1299.741" timestamp="1595281696868" />
-    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2" timestamp="1595356076069">
+    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2" timestamp="1595356511111">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1595356076069" />
+    <state x="269" y="27" width="885" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1595356511111" />
     <state x="493" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1595280263496">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -251,10 +261,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1595281434318" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595356079203">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1595356518151">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1595356079203" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1595356518151" />
     <state x="380" y="190" width="663" height="413" key="git4idea.merge.GitPullDialog" timestamp="1595274544779">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
