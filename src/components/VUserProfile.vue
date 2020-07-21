@@ -1,6 +1,13 @@
 <template>
-  <div>
-    VUserProfile
+  <div class="user-profile">
+    <h1>VUserProfile</h1>
+    <img class="user-profile__avatar" :src="user.avatar_url" />
+    <div class="user-profile__name">
+      {{ user.name }}
+    </div>
+    <div class="user-profile__bio">
+      {{ user.bio }}
+    </div>
   </div>
 </template>
 
@@ -10,8 +17,7 @@ export default {
   props: {
     user: {
       type: Object,
-      required: true,
-      default: () => ({})
+      required: true
     }
   }
 }
