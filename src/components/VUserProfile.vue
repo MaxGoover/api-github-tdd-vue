@@ -16,8 +16,8 @@ export default {
   name: 'VUserProfile',
   props: {
     user: {
-      type: Object,
-      required: true
+      required: true,
+      type: Object
     }
   }
 }
